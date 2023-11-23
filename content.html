@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Mustafa Vural'ın Kişisel Web Sitesi">
+        <meta name="keywords" content="Mustafa,Vural,Web,Site">
+        <meta name="author" content="Mustafa Vural">
+        <title>Mustafa Vural'ın kişisel Web sitesi</title>
+    </head>
+    <body>
+        <nav style="width: 100%;" >
+            <center>
+                <h1>Mustafa Vural</h1>
+                <a href="index.html">Anasayfa</a> |
+                <a href="cv.html">Özgeçmiş</a> | 
+                <a href="hesaplar.html">Kullanıcılar</a> |
+                <a href="content.html">İletişim</a>
+                <br>
+                <hr>
+                <br>
+                <h2>Adres:</h2>
+                <p>Galaksi Mah. Dürbün Sok. No:5 Kuşkusuz Apt D12
+                    <br>
+                    Söğüt/Bilecik
+                </p>
+                <h2>Telefon:</h2>
+                <p>0.555.555.5555</p>
+                <h2>Email:</h2>
+                <p>nmsdcdjs@gmail.com</p>
+                <hr>
+                <br>
+                <form name="iletisim" action="iletisim.php" method="post" autocomplete="on">
+                    <table>
+                        <tr><td>Ad Soyad:</td><td><input type="text" name="adsoyad" placeholder="Ad Soyad Gir"required size="30" maxlength="50" autofocus></td></tr>
+                        <tr><td>Email:</td><td><input type="email" name="email"required size="30" maxlength="50" autofocus></td></tr>
+                        <tr><td>Adres:</td><td><textarea name="mesaj" cols="30" rows="10" style="resize: none;"></textarea></td></tr>
+                        <tr><td></td><td><input type="submit" value="Gönder"><input type="reset" value="Temizle"></td></tr>
+                    </table>
+                </form>
+               
+            </center>
+        </nav>
+    </body>
+</html>
